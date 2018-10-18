@@ -9,7 +9,7 @@ SetEnv APPLICATION_ENV development
 
 # Adiciona o rewrite
 RewriteEngine On
-RewriteBase /
+RewriteBase /pmini/public_html/
 
 # Rewrite
 RewriteCond %{REQUEST_FILENAME} !-f
